@@ -4,5 +4,4 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-eframe = { path = "egui/crates/eframe", default-features = false, features = ["default_fonts", "wayland", "wgpu"] }
-wgpu = { version = "*", features = ["webgpu", "webgl"] }
+eframe = { path = "egui/crates/eframe" }
