@@ -1,6 +1,7 @@
 use eframe::egui;
 
 fn main() {
+    env_logger::init();
     let native_options = eframe::NativeOptions::default();
     eframe::run_native(
         "Example App",

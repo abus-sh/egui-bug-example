@@ -5,3 +5,4 @@ edition = "2024"
 
 [dependencies]
 eframe = { path = "egui/crates/eframe" }
+env_logger = { version = "0.11.8", default-features = false, features = ["auto-color", "humantime"] }
