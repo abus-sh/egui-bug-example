@@ -17,7 +17,7 @@ rustPlatform.buildRustPackage (finalAttrs: {
 
   src = pkgs.lib.cleanSource ./.;
 
-  cargoHash = "sha256-SUIEfZJeBiCawnLJQOGL7Gq2XnwNFRgVzHCGm2aKeXc=";
+  cargoHash = "sha256-utTzmji/3JAv796CkZgMxhO5wLcnbH8SkROAgSTqCv4=";
 
   addDlopenRunpaths = map (p: "${lib.getLib p}/lib") (
     lib.optionals stdenv.hostPlatform.isLinux [
